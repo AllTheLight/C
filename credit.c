@@ -18,7 +18,7 @@ long long c_number;
 //introducing the first array orig_numbers
 int orig_numbers[n_digits];
 //To store the long long value as an array called orig_numbers
-for(i=0; i < n_digits; i++)
+for (i=0; i < n_digits; i++)
 {
     orig_numbers[i] = c_number%10;
     c_number /= 10;

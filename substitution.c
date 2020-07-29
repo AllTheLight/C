@@ -1,5 +1,3 @@
-#include <cs50.h>
-#include <stdio.h>
 
 #include <cs50.h>
 #include <stdio.h>
@@ -7,7 +5,7 @@
 #include <ctype.h>
 #include <stdlib.h>
 
-int main(int argc, string argv[])
+int main(int argc, char* argv[])
 {
     if (argc != 2)
     {
